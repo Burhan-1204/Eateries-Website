@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airlines Hotel</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="index.html" id="homeLink">Home</a>
+    <div class="container">
+      <h1>Airlines Hotel</h1>
+
+      <img
+        src="https://i0.wp.com/motofoodie.in/wp-content/uploads/2023/09/Best-Channa-Bhatura-in-Bengaluru-at-Airlines-Hotel-Benagaluru.jpg?resize=1024%2C768&ssl=1"
+        alt="Airlines Hotel Bangalore"
+      />
+      <p>
+        Airlines Hotel is a legendary open-air eatery nestled under a canopy of
+        large trees in the heart of Bangalore. A popular spot for generations,
+        it is best known for its calm ambiance, retro charm, and South Indian
+        breakfast items like dosas, idlis, and vadas and its famous Delhi wale
+        Chole Bature.
+      </p>
+      <p>
+        Located on Lavelle Road, it offers a nostalgic experience with outdoor
+        seating where waiters serve you in your car or at shaded tables. The
+        filter coffee here is highly recommended, making it a beloved
+        destination for locals and tourists alike.
+      </p>
+
+      <!-- Google Maps Embed -->
+      <div class="map-container" style="margin-top: 20px">
+        <iframe
+          width="100%"
+          height="400"
+          style="border: 0; border-radius: 10px"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9819186232758!2d77.59727277412037!3d12.973008214849363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16797b5c6ad5%3A0x83334d052c61949c!2sAirlines%20Hotel!5e0!3m2!1sen!2sin!4v1746862126877!5m2!1sen!2sin"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <script>
+      window.onscroll = function () {
+        const backToTopBtn = document.getElementById("backToTop");
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>

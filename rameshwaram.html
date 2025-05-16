@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rameshwaram Cafe</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a href="index.html" id="homeLink">Home</a>
+    <div class="container">
+      <h1>Rameshwaram Cafe</h1>
+
+      <img
+        src="https://im.whatshot.in/img/2021/Sep/242085489-125389646511036-2632087307660073398-n-cropped-1632201863.jpg?wp=1"
+        alt="Rameshwaram Cafe Bangalore"
+      />
+      <p>
+        Rameshwaram Cafe is one of the most popular new-age eateries in
+        Bangalore, known for its modern take on traditional South Indian dishes.
+        With its fast-service model and impeccable hygiene standards, it has
+        quickly become a favorite among young professionals, families, and
+        foodies alike.
+      </p>
+      <p>
+        The cafe serves a variety of dosas, idlis, vadas, and other classic
+        dishes with a touch of innovation. Located in Jayanagar, it combines
+        quality food with efficient service, making it a perfect spot for both a
+        quick bite and a relaxing meal.
+      </p>
+
+      <!-- Google Maps Embed -->
+      <div class="map-container" style="margin-top: 20px">
+        <iframe
+          width="100%"
+          height="400"
+          style="border: 0; border-radius: 10px"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.428826263568!2d77.55199537412092!3d13.008341614073633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d1bdfa3da7b%3A0x2af8c2626a82de0c!2sThe%20Rameshwaram%20Cafe%20%40%20Rajajinagar!5e0!3m2!1sen!2sin!4v1746863078676!5m2!1sen!2sin"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <script>
+      window.onscroll = function () {
+        const backToTopBtn = document.getElementById("backToTop");
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
